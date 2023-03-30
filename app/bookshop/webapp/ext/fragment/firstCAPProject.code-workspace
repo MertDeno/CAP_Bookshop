@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"name": "firstCAPProject",
+			"path": "../../../../.."
+		}
+	],
+	"settings": {
+		"sqltools.useNodeRuntime": true,
+		"sqltools.connections": [
+			{
+				"previewLimit": 50,
+				"driver": "SQLite",
+				"database": "${workspaceFolder:firstCAPProject}/Bookshop.db",
+				"name": "Bookshop"
+			}
+		]
+	}
+}

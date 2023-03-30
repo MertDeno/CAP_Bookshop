@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="4.0" xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx">
+    <edmx:DataServices>
+        <Schema Namespace="RegisterService" xmlns="http://docs.oasis-open.org/odata/ns/edm">
+            <EntityContainer Name="EntityContainer">
+                <EntitySet Name="Authors" EntityType="RegisterService.Authors">
+                    <NavigationPropertyBinding Path="books" Target="Books"/>
+                    <NavigationPropertyBinding Path="nations" Target="Nations"/>
+                </EntitySet>
+                <EntitySet Name="Books" EntityType="RegisterService.Books">
+                    <NavigationPropertyBinding Path="authors" Target="Authors"/>
+                </EntitySet>
+                <EntitySet Name="Nations" EntityType="RegisterService.Nations">
+                    <NavigationPropertyBinding Path="authors" Target="Authors"/>
+                </EntitySet>
+            </EntityContainer>
+            <EntityType Name="Authors">
+                <Key>
+                    <PropertyRef Name="authorId"/>
+                </Key>
+                <Property Name="authorId" Type="Edm.Int32" Nullable="false"/>
+                <Property Name="authorName" Type="Edm.String"/>
+                <NavigationProperty Name="books" Type="Collection(RegisterService.Books)" Partner="authors"/>
+                <NavigationProperty Name="nations" Type="RegisterService.Nations" Partner="authors">
+                    <ReferentialConstraint Property="nations_nationId" ReferencedProperty="nationId"/>
+                </NavigationProperty>
+                <Property Name="nations_nationId" Type="Edm.Int32"/>
+            </EntityType>
+            <EntityType Name="Books">
+                <Key>
+                    <PropertyRef Name="bookId"/>
+                </Key>
+                <Property Name="bookId" Type="Edm.Int32" Nullable="false"/>
+                <Property Name="bookName" Type="Edm.String"/>
+                <Property Name="edition" Type="Edm.Int32"/>
+                <NavigationProperty Name="authors" Type="RegisterService.Authors" Partner="books">
+                    <ReferentialConstraint Property="authors_authorId" ReferencedProperty="authorId"/>
+                </NavigationProperty>
+                <Property Name="authors_authorId" Type="Edm.Int32"/>
+            </EntityType>
+            <EntityType Name="Nations">
+                <Key>
+                    <PropertyRef Name="nationId"/>
+                </Key>
+                <Property Name="nationId" Type="Edm.Int32" Nullable="false"/>
+                <Property Name="nation" Type="Edm.String"/>
+                <NavigationProperty Name="authors" Type="Collection(RegisterService.Authors)" Partner="nations"/>
+            </EntityType>
+        </Schema>
+    </edmx:DataServices>
+</edmx:Edmx>

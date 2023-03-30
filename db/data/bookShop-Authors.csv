@@ -1,0 +1,19 @@
+authorId, authorName, nations_nationId,likes
+100, Fyodor Mihailoviç Dostoyevski, 2, 50
+120, Lev Nikolayeviç Tolstoy, 2, 40
+140, Nikolay Vasilyeviç Gogol, 2,20
+160, Maksim Gorki, 2,30
+180, Aleksandr Puşkin, 2,10
+200, Victor Hugo, 3, 20
+220, Honore de Balzac, 3,15
+240, Emile Zola, 3,30
+260, Pierre Loti, 3, 50
+280, Alexandre Dumas, 3,15
+300, Kemal Tahir, 1,30
+320, Yaşar Kemal, 1,50
+340, Yakup Kadri Karaosmanoğlu, 1,40
+360, Orhan Kemal, 1,30
+380, Fakir Baykurt, 1,52
+400, Mark Twain, 4,20
+420, Jack London, 4,15
+440, Ernest Hemingway, 4,30
