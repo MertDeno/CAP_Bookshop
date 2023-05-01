@@ -11,8 +11,6 @@ module.exports = srv => {
         var tempPrice = each.price
         var newPrice = tempPrice - discount
         each.description = 'The new price with discount is '+Math.ceil(newPrice)+' '+each.currency_code
-    }
-
-    
+    }    
 
 }

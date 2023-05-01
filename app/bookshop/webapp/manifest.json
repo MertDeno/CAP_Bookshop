@@ -183,10 +183,29 @@
                                         "DataFieldForAnnotation::DataPoint::edition1": {
                                             "width": "20%"
                                         }
+                                    },
+                                    "tableSettings": {
+                                        "selectAll": true,
+                                        "selectionMode": "Multi"
+                                    },
+                                    "actions": {
+                                        "DataFieldForAction::RegisterService.orderBook": {
+                                            "enableOnSelect": "multi"
+                                        },
+                                        "DataFieldForAction::RegisterService.deleteBook": {
+                                            "enableOnSelect": "multi"
+                                        }
                                     }
                                 }
                             },
-                            "navigation": {}
+                            "navigation": {},
+                            "content": {
+                                "header": {
+                                    "visible": true,
+                                    "anchorBarVisible": false
+                                }
+                            },
+                            "variantManagement": "None"
                         }
                     }
                 }

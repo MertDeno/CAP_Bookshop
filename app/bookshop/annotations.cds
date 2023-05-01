@@ -171,18 +171,18 @@ annotate service.Books with @(
         },
         {
             $Type : 'UI.DataField',
-            Value : description,
-            Label : 'description',
-        },
-        {
-            $Type : 'UI.DataField',
             Value : price,
-            Label : 'price',
+            Label : 'Price',
         },
         {
             $Type : 'UI.DataField',
             Value : currency_code,
-        },]
+        },
+        {
+            $Type : 'UI.DataField',
+            Value : description,
+            Label : 'Description',
+        }]
 );
 annotate service.Nations with @(
     UI.SelectionPresentationVariant #table : {
@@ -217,7 +217,7 @@ annotate service.Books with @(
 );
 annotate service.Books with @(
     UI.DataPoint #bookId : {
-        Value : bookId,
+        Value : bookName,
         Visualization : #Progress,
         TargetValue : 100,
     }
@@ -245,5 +245,15 @@ annotate service.Books with @(
         $Type : 'UI.FieldGroupType',
         Data : [
         ],
+    }
+);
+annotate service.Authors with @(
+    UI.HeaderInfo : {
+        Title : {
+            $Type : 'UI.DataField',
+            Value : authorName,
+        },
+        TypeName : '',
+        TypeNamePlural : '',
     }
 );
