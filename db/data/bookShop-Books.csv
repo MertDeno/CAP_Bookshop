@@ -1,72 +1,72 @@
-bookId,bookName, authors_authorId, edition, ISBN, publisher, availability, genre
-1000, Karamazov Kardeşler, 100, 35, 0030245710047,  Can Yayınları, 1, Dünya Klasikleri
-1001, Suç Ve Ceza, 100, 40, 6921529263941, İş Bankası Kültür Yayınları, 1, Dünya Klasikleri
-1002, Ecinniler, 100, 23, 5573602061884, Yapı Kredi Yayınları, 1, Dünya Klasikleri
-1003, Kumarbaz, 100,16, 1121523704595, Yapı Kredi Yayınları, 0, Dünya Klasikleri
-1004, Budala, 100, 24, 7773329961113, İş Bankası Kültür Yayınları, 1, Dünya Klasikleri
-1005, Delikanlı, 100, 12, 1458934941259, Yapı Kredi Yayınları, 1, Dünya Klasikleri
-1010, Savaş ve Barış, 120, 20, 8158743229017, Doğan Kitap, 1, Dünya Klasikleri
-1011, Anna Karenina, 120, 40, 3377407307322, Yapı Kredi Yayınları, 0, Dünya Klasikleri
-1012, Sivastopol, 120, 24, 8715235409326, İş Bankası Kültür Yayınları, 1, Dünya Klasikleri
-1013, Kazaklar, 120, 34, 5558430484725, Doğan Kitap, 1, Dünya Klasikleri
-1014, Diriliş, 120, 33, 2806918045328, İş Bankası Kültür Yayınları, 1, Dünya Klasikleri
-1015, Hacı Murat, 120, 25, 4889232508115, Can Yayınları, 0, Dünya Klasikleri
-1020, Ölü Canlar, 140, 41, 9908031730565, İletişim Yayınları, 1, Dünya Klasikleri
-1021, Taras Bulba, 140, 15, 2512533484132, İletişim Yayınları, 1, Dünya Klasikleri
-1022, Evlenme, 140, 25, 0521812997040, İletişim Yayınları, 1, Dünya Klasikleri
-1030, Çocukluğum, 160, 11, 5051157449926, İş Bankası Kültür Yayınları, 0, Dünya Klasikleri
-1031, Ekmeğimi Kazanırken, 160, 13, 6296914455030, İş Bankası Kültür Yayınları, 1, Dünya Klasikleri
-1032, Benim Üniversitelerim, 160, 24, 2771891029356, İş Bankası Kültür Yayınları, 1, Dünya Klasikleri
-1033, Muhbir, 160, 5, 2308472127137, Doğan Kitap, 1, Dünya Klasikleri
-1034, Küçük Burjuvalar, 160, 2, 6645309363325, Doğan Kitap, 0, Dünya Klasikleri
-1040, Yüzbaşının Kızı, 180, 13, 2427861388969, İş Bankası Kültür Yayınları, 1, Dünya Klasikleri
-1041, Büyük Petro'nun Arabı, 180, 6, 0765824408258, İş Bankası Kültür Yayınları, 1, Dünya Klasikleri
-1042, Yevgeni Onegin, 180, 14, 1093204689585, Doğan Kitap, 1, Dünya Klasikleri
-1043, Kış Akşamı, 180, 21, 7385983246455, Doğan Kitap, 0, Dünya Klasikleri
-2000, Esir Şehrin İnsanları, 300, 35, 9146563413268, İletişim Yayınları,1, Türk Klasikleri
-2001, Esir Şehrin Mahpusu, 300, 21, 2133071371599, İletişim Yayınları, 1, Türk Klasikleri
-2002, Yol Ayrımı, 300, 10, 9761855990809, İletişim Yayınları, 1, Türk Klasikleri
-2003, Kurt Kanunu, 300, 40, 9105083329226, İletişim Yayınları, 1, Türk Klasikleri
-2004, Rahmet Yolları Kesti, 300, 50, 9745524651520, İletişim Yayınları, 1 , Türk Klasikleri
-2005, Yorgun Savaşçı, 300, 55, 8805909035674, İletişim Yayınları, 1, Türk Klasikleri
-2006, Devlet Ana, 300, 35, 2969313106963, İletişim Yayınları, 0, Türk Klasikleri
-2007, Karılar Koğuşu, 300, 20, 1238299987860, İletişim Yayınları, 1 , Türk Klasikleri
-2010, İnce Memed, 320, 41, 9924720013747, Doğan Kitap, 1, Türk Klasikleri
-2011, Teneke, 320, 35, 4903476441990, Doğan Kitap, 1, Türk Klasikleri
-2012, Binboğalar Efsanesi, 320, 21, 3297987253199, Doğan Kitap, 0, Türk Klasikleri
-2013, Yılanı Öldürseler, 320, 33, 6699002810546, Doğan Kitap, 1, Türk Klasikleri
-2014, Çakırcalı Efe, 320, 12, 8556558271712, Doğan Kitap, 1, Türk Klasikleri
-2020, Nur Baba, 340, 43, 7761447035969, Can Yayınları, 1, Türk Klasikleri
-2021, Kiralık Konak, 340, 41, 8656479938609, Can Yayınları, 1, Türk Klasikleri
-2022, Ankara, 340, 35, 6629120272267, Can Yayınları, 1, Türk Klasikleri
-2023, Yaban, 340, 36, 2169384214596, Can Yayınları, 0, Türk Klasikleri
-2024, Panorama, 340, 12, 7367322820301, Can Yayınları, 0, Türk Klasikleri
-2030, Üç Kağıtçı, 360, 25, 2907912365723, İletişim Yayınları, 0, Türk Klasikleri
-2031, Hanımın Çiftliği, 360,24, 3055088103171, İletişim Yayınları, 1, Türk Klasikleri
-2032, Murtaza, 360, 30, 1892685394399, İletişim Yayınları, 1, Türk Klasikleri
-2033, Bereketli Topraklar Üzerinde, 360, 46, 4819274793021, İletişim Yayınları, 1, Türk Klasikleri
-2034, Gurbet Kuşları, 360, 41, 4673020981013, İletişim Yayınları, 0, Türk Klasikleri
-2040, Yılanların Öcü, 380, 42, 9040143148508, Pegasus Yayınları, 1, Türk Klasikleri
-2041, Irazcanın Dirliği, 380, 25, 4569611603165, Pegasus Yayınları, 1, Türk Klasikleri
-2042, Kaplumbağalar, 380, 42, 4652648657681, Pegasus Yayınları, 1, Türk Klasikleri
-2043, Koca Ren, 380, 21, 2625052615415, Pegasus Yayınları, 0, Türk Klasikleri
-3000, Sefiller, 200, 13, 3066938838887, Pegasus Yayınları, 1, Türk Klasikleri
-3001, 93 İhtilali, 200, 4, 2146519497216, Pegasus Yayınları, 1, Türk Klasikleri
-3002, Notre Dame'ın Kamburu, 200, 15, 9835854165127, İş Bankası Kültür Yayınları, 1, Dünya Klasikleri
-3003, Bir İdam Mahkumu'nun Son Günü, 200, 10, 1105180508832, İş Bankası Kültür Yayınları, 0, Dünya Klasikleri
-3010, Vadideki Zambak, 220, 20, 5996977913613, İş Bankası Kültür Yayınları, 1, Dünya Klasikleri
-3011, Goriot Baba, 220, 25, 7166827999136, İş Bankası Kültür Yayınları, 1, Dünya Klasikleri
-3020, Meyhane, 240, 21, 4925568531163, İş Bankası Kültür Yayınları, 1, Dünya Klasikleri
-3021, Germinal, 240, 26, 2560142242061, İş Bankası Kültür Yayınları, 0, Dünya Klasikleri
-3030, Can Çekişen Türkiye, 260, 17, 8226331256188, Metis Yayınları, 1, Dünya Klasikleri
-3040, Monte Kristo Kontu, 280, 28, 4224498323981, Can Yayınları, 1, Dünya Klasikleri
-4000, Tom Sawyer'ın Maceraları, 400,41, 4268434588905, Can Yayınları, 1, Dünya Klasikleri
-4001, Huckleberry Finn'in Maceraları, 400, 37, 6795967829457, Can Yayınları, 0, Dünya Klasikleri
-4002, Küçük Prens, 400, 41, 5270067596793, Can Yayınları, 1, Dünya Klasikleri
-4010, Demir Ökçe, 420, 9, 5105642790180, Yapı Kredi Yayınları, 1, Dünya Klasikleri
-4011, Martin Eden, 420, 10, 4285805363939, Yapı Kredi Yayınları, 1, Dünya Klasikleri
-4012, Vahşetin Çağrısı, 420, 21, 3291839071765, Yapı Kredi Yayınları, 0, Dünya Klasikleri
-4013, Beyaz Diş, 420, 16, 7683755785410, Yapı Kredi Yayınları, 1, Dünya Klasikleri
-4020, Silahlara Veda, 440, 23, 7511209424193, Yapı Kredi Yayınları, 1, Dünya Klasikleri
-4021, Çanlar Kimin İçin Çalıyor, 440, 27, 6839433564009, Yapı Kredi Yayınları, 1, Dünya Klasikleri
-4022, Yaşlı Adam Ve Deniz, 440, 29, 9331459402061, Yapı Kredi Yayınları, 0, Dünya Klasikleri
+bookId,bookName, authors_authorId, edition, ISBN, publisher, genre, stocks, price, currency_code, description,
+1000, Karamazov Kardeşler, 100, 35, 0030245710047,  Can Yayınları, Dünya Klasikleri, 200, 140, TL,
+1001, Suç Ve Ceza, 100, 40, 6921529263941, İş Bankası Kültür Yayınları, Dünya Klasikleri, 12, 132, TL, 
+1002, Ecinniler, 100, 23, 5573602061884, Yapı Kredi Yayınları, Dünya Klasikleri, 3, 98, TL,
+1003, Kumarbaz, 100,16, 1121523704595, Yapı Kredi Yayınları, Dünya Klasikleri, 100, 42, TL,
+1004, Budala, 100, 24, 7773329961113, İş Bankası Kültür Yayınları, Dünya Klasikleri, 50, 116, TL,
+1005, Delikanlı, 100, 12, 1458934941259, Yapı Kredi Yayınları, Dünya Klasikleri, 190, 97, TL,
+1010, Savaş ve Barış, 120, 20, 8158743229017, Doğan Kitap, Dünya Klasikleri, 300, 150, TL,
+1011, Anna Karenina, 120, 40, 3377407307322, Yapı Kredi Yayınları, Dünya Klasikleri, 140, 140, TL,
+1012, Sivastopol, 120, 24, 8715235409326, İş Bankası Kültür Yayınları, Dünya Klasikleri, 120, 70, TL,
+1013, Kazaklar, 120, 34, 5558430484725, Doğan Kitap, Dünya Klasikleri, 90, 45, TL,
+1014, Diriliş, 120, 33, 2806918045328, İş Bankası Kültür Yayınları, Dünya Klasikleri, 180, 130, TL,
+1015, Hacı Murat, 120, 25, 4889232508115, Can Yayınları, Dünya Klasikleri, 20, 65, TL,
+1020, Ölü Canlar, 140, 41, 9908031730565, İletişim Yayınları, Dünya Klasikleri, 170, 89, TL,
+1021, Taras Bulba, 140, 15, 2512533484132, İletişim Yayınları, Dünya Klasikleri, 0, 56, TL,
+1022, Evlenme, 140, 25, 0521812997040, İletişim Yayınları, Dünya Klasikleri, 20, 42, TL,
+1030, Çocukluğum, 160, 11, 5051157449926, İş Bankası Kültür Yayınları, Dünya Klasikleri,19, 50, TL,
+1031, Ekmeğimi Kazanırken, 160, 13, 6296914455030, İş Bankası Kültür Yayınları, Dünya Klasikleri, 18, 60, TL,
+1032, Benim Üniversitelerim, 160, 24, 2771891029356, İş Bankası Kültür Yayınları, Dünya Klasikleri, 20, 33, TL,
+1033, Muhbir, 160, 5, 2308472127137, Doğan Kitap, Dünya Klasikleri, 30, 25, TL,
+1034, Küçük Burjuvalar, 160, 2, 6645309363325, Doğan Kitap, Dünya Klasikleri,20, 54, TL,
+1040, Yüzbaşının Kızı, 180, 13, 2427861388969, İş Bankası Kültür Yayınları, Dünya Klasikleri, 304, 86, TL,
+1041, Büyük Petro'nun Arabı, 180, 6, 0765824408258, İş Bankası Kültür Yayınları, Dünya Klasikleri, 120, 50, TL,
+1042, Yevgeni Onegin, 180, 14, 1093204689585, Doğan Kitap, Dünya Klasikleri, 0, 30, TL,
+1043, Kış Akşamı, 180, 21, 7385983246455, Doğan Kitap, Dünya Klasikleri, 0, 27, TL,
+2000, Esir Şehrin İnsanları, 300, 35, 9146563413268, İletişim Yayınları, Türk Klasikleri, 100, 70, TL,
+2001, Esir Şehrin Mahpusu, 300, 21, 2133071371599, İletişim Yayınları, Türk Klasikleri, 94, 70, TL,
+2002, Yol Ayrımı, 300, 10, 9761855990809, İletişim Yayınları, Türk Klasikleri, 140, 67, TL,
+2003, Kurt Kanunu, 300, 40, 9105083329226, İletişim Yayınları, Türk Klasikleri, 132, 75, TL,
+2004, Rahmet Yolları Kesti, 300, 50, 9745524651520, İletişim Yayınları, Türk Klasikleri, 87, 52, TL,
+2005, Yorgun Savaşçı, 300, 55, 8805909035674, İletişim Yayınları, Türk Klasikleri, 78, 88, TL,
+2006, Devlet Ana, 300, 35, 2969313106963, İletişim Yayınları, Türk Klasikleri, 111, 70, TL,
+2007, Karılar Koğuşu, 300, 20, 1238299987860, İletişim Yayınları, Türk Klasikleri, 76, 60, TL,
+2010, İnce Memed, 320, 41, 9924720013747, Doğan Kitap, Türk Klasikleri, 100, 90, TL,
+2011, Teneke, 320, 35, 4903476441990, Doğan Kitap, Türk Klasikleri, 13, 58, TL,
+2012, Binboğalar Efsanesi, 320, 21, 3297987253199, Doğan Kitap, Türk Klasikleri, 10, 44, TL,
+2013, Yılanı Öldürseler, 320, 33, 6699002810546, Doğan Kitap, Türk Klasikleri, 24, 38, TL,
+2014, Çakırcalı Efe, 320, 12, 8556558271712, Doğan Kitap, Türk Klasikleri, 45, 41, TL,
+2020, Nur Baba, 340, 43, 7761447035969, Can Yayınları, Türk Klasikleri, 77, 33, TL,
+2021, Kiralık Konak, 340, 41, 8656479938609, Can Yayınları, Türk Klasikleri, 100, 41, TL,
+2022, Ankara, 340, 35, 6629120272267, Can Yayınları, Türk Klasikleri, 100, 50, TL,
+2023, Yaban, 340, 36, 2169384214596, Can Yayınları, Türk Klasikleri, 45, 27, TL,
+2024, Panorama, 340, 12, 7367322820301, Can Yayınları, Türk Klasikleri, 10, 44, TL,
+2030, Üç Kağıtçı, 360, 25, 2907912365723, İletişim Yayınları, Türk Klasikleri, 42, 41, TL,
+2031, Hanımın Çiftliği, 360,24, 3055088103171, İletişim Yayınları, Türk Klasikleri, 37, 100, TL,
+2032, Murtaza, 360, 30, 1892685394399, İletişim Yayınları, Türk Klasikleri, 89, 110, TL,
+2033, Bereketli Topraklar Üzerinde, 360, 46, 4819274793021, İletişim Yayınları, Türk Klasikleri, 65, 120, TL,
+2034, Gurbet Kuşları, 360, 41, 4673020981013, İletişim Yayınları, Türk Klasikleri, 41, 90, TL,
+2040, Yılanların Öcü, 380, 42, 9040143148508, Pegasus Yayınları, Türk Klasikleri, 22, 70, TL,
+2041, Irazcanın Dirliği, 380, 25, 4569611603165, Pegasus Yayınları, Türk Klasikleri, 32, 80, TL,
+2042, Kaplumbağalar, 380, 42, 4652648657681, Pegasus Yayınları, Türk Klasikleri, 58, 73, TL,
+2043, Koca Ren, 380, 21, 2625052615415, Pegasus Yayınları, Türk Klasikleri, 12, 51, TL,
+3000, Sefiller, 200, 13, 3066938838887, Pegasus Yayınları, Türk Klasikleri, 100, 80, TL,
+3001, 93 İhtilali, 200, 4, 2146519497216, Pegasus Yayınları, Türk Klasikleri, 41, 68, TL,
+3002, Notre Dame'ın Kamburu, 200, 15, 9835854165127, İş Bankası Kültür Yayınları, Dünya Klasikleri, 76, 70, TL,
+3003, Bir İdam Mahkumu'nun Son Günü, 200, 10, 1105180508832, İş Bankası Kültür Yayınları, Dünya Klasikleri, 43, 40, TL,
+3010, Vadideki Zambak, 220, 20, 5996977913613, İş Bankası Kültür Yayınları, Dünya Klasikleri, 123, 70, TL,
+3011, Goriot Baba, 220, 25, 7166827999136, İş Bankası Kültür Yayınları, Dünya Klasikleri, 51, 81, TL,
+3020, Meyhane, 240, 21, 4925568531163, İş Bankası Kültür Yayınları, Dünya Klasikleri, 26, 74, TL,
+3021, Germinal, 240, 26, 2560142242061, İş Bankası Kültür Yayınları, Dünya Klasikleri, 52, 61, TL,
+3030, Can Çekişen Türkiye, 260, 17, 8226331256188, Metis Yayınları, Dünya Klasikleri, 10, 52, TL,
+3040, Monte Kristo Kontu, 280, 28, 4224498323981, Can Yayınları, Dünya Klasikleri, 55, 120, TL,
+4000, Tom Sawyer'ın Maceraları, 400,41, 4268434588905, Can Yayınları, Dünya Klasikleri, 14, 34, TL,
+4001, Huckleberry Finn'in Maceraları, 400, 37, 6795967829457, Can Yayınları, Dünya Klasikleri, 11, 50, TL,
+4002, Küçük Prens, 400, 41, 5270067596793, Can Yayınları, Dünya Klasikleri, 31, 64, TL,
+4010, Demir Ökçe, 420, 9, 5105642790180, Yapı Kredi Yayınları, Dünya Klasikleri, 44, 57, TL,
+4011, Martin Eden, 420, 10, 4285805363939, Yapı Kredi Yayınları, Dünya Klasikleri, 12, 71, TL,
+4012, Vahşetin Çağrısı, 420, 21, 3291839071765, Yapı Kredi Yayınları, Dünya Klasikleri, 42, 24, TL,
+4013, Beyaz Diş, 420, 16, 7683755785410, Yapı Kredi Yayınları, Dünya Klasikleri, 45, 30, TL,
+4020, Silahlara Veda, 440, 23, 7511209424193, Yapı Kredi Yayınları, Dünya Klasikleri, 66, 90, TL,
+4021, Çanlar Kimin İçin Çalıyor, 440, 27, 6839433564009, Yapı Kredi Yayınları, Dünya Klasikleri, 123, 100, TL,
+4022, Yaşlı Adam Ve Deniz, 440, 29, 9331459402061, Yapı Kredi Yayınları, Dünya Klasikleri, 0, 30, TL,

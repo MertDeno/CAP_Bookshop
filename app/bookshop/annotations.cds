@@ -58,6 +58,10 @@ annotate service.Authors with @(
             Target : '@UI.DataPoint#likes',
             Label : 'Likes',
             ![@UI.Importance] : #High,
+        },
+        {
+            $Type : 'UI.DataField',
+            Value : country_code,
         },]
 );
 annotate service.Nations with @(
@@ -137,15 +141,6 @@ annotate service.Books with @(
     UI.LineItem #Books : [
         {
             $Type : 'UI.DataField',
-            Value : bookId,
-            Label : 'Book Number',
-        },{
-            $Type : 'UI.DataFieldForAnnotation',
-            Target : '@UI.DataPoint#edition1',
-            Label : 'Edition',
-        },
-        {
-            $Type : 'UI.DataField',
             Value : bookName,
             Label : 'Book Name',
         },
@@ -163,6 +158,30 @@ annotate service.Books with @(
             $Type : 'UI.DataField',
             Value : genre,
             Label : 'Genre',
+        },
+        {
+            $Type : 'UI.DataFieldForAnnotation',
+            Target : '@UI.DataPoint#edition1',
+            Label : 'Edition',
+        },
+        {
+            $Type : 'UI.DataField',
+            Value : stocks,
+            Label : 'Stocks',
+        },
+        {
+            $Type : 'UI.DataField',
+            Value : description,
+            Label : 'description',
+        },
+        {
+            $Type : 'UI.DataField',
+            Value : price,
+            Label : 'price',
+        },
+        {
+            $Type : 'UI.DataField',
+            Value : currency_code,
         },]
 );
 annotate service.Nations with @(

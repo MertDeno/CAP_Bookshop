@@ -1,26 +1,38 @@
 namespace bookShop;
-using { managed } from '@sap/cds/common';
+using { managed, Currency, Country } from '@sap/cds/common';
 
-entity Books : managed {
+aspect availability {
+    stocks: Integer;
+    price: Integer;
+    currency: Currency;
+}
+
+aspect authorDetail {
+    key authorId: Integer;
+    authorName: String;
+    likes: Integer;
+}
+
+entity Books : availability {
     key bookId: Integer;
     bookName: String;
     edition:Integer;
     ISBN: String(13);
     publisher: String;
     genre: String;
-    availability: Integer;
-    authors: Association to Authors
+    authors: Association to Authors;
+    description:String;
 }
 
-entity Authors : managed {
-    key authorId: Integer;
-    authorName: String;
-    likes: Integer;
+@cds.autoexpose
+entity Authors : authorDetail {
     books: Association to many Books on books.authors = $self;
-    nations: Association to Nations
+    nations: Association to Nations;
+    country: Country;
 }
 
-entity Nations: managed{
+@cds.autoexpose
+entity Nations {
     key nationId: Integer;
     nation: String;
     rate: Integer;

@@ -182,14 +182,6 @@
                                     "columns": {
                                         "DataFieldForAnnotation::DataPoint::edition1": {
                                             "width": "20%"
-                                        },
-                                        "ViewedFragment": {
-                                            "header": "Available",
-                                            "position": {
-                                                "placement": "After",
-                                                "anchor": "DataField::genre"
-                                            },
-                                            "template": "bookshop.cap.bookshop.ext.fragment.ViewedFragment"
                                         }
                                     }
                                 }

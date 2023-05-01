@@ -1,0 +1,5 @@
+//GET http://localhost:4004/RegisterService/Authors(authorId=400)?
+//&$expand=books
+
+GET http://localhost:4004/RegisterService/Nations(nationId=1)?
+&$expand=authors
